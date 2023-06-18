@@ -81,7 +81,7 @@ def delete_vegetable(id: int):
 
 
 @route.post("/nutria/detect")
-async def detect(file: UploadFile = File(...), model_name: str = 'best'):
+async def detect(file: UploadFile = File(...), model_name: str = 'last-s'):
     model = torch.hub.load('ultralytics/yolov5', 'custom', model_name)
     results = model(Image.open(BytesIO(await file.read())))
     # print('results: ' + str(results))
