@@ -1,11 +1,11 @@
--f https://download.pytorch.org/whl/torch_stable.html
-# sqlalchemy
+# -f https://download.pytorch.org/whl/torch_stable.html
+sqlalchemy
 fastapi
 # pydantic
 uvicorn
 gunicorn
-# cryptography
-# pymysql
+cryptography
+pymysql
 
 #
 jinja2
