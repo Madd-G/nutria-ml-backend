@@ -13,10 +13,3 @@ app.add_middleware(
 )
 
 app.include_router(route)
-
-# bisa hapus
-# if __name__ == '__main__':
-#     import uvicorn
-#
-#     app_str = 'main:app'
-#     uvicorn.run(app_str, host='192.168.18.55', reload=True, port=8080, workers=1)

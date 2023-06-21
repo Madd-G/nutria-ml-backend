@@ -1,12 +1,7 @@
-sqlalchemy
 fastapi
 pydantic
 uvicorn
 gunicorn
-cryptography
-pymysql
-
-#
 jinja2
 aiofiles
 python-multipart
@@ -28,3 +23,5 @@ pandas
 thop
 pycocotools>=2.0
 torchvision>=0.8.1
+psutil
+ultralytics
